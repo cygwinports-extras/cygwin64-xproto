@@ -3,7 +3,7 @@ inherit xorg cross
 
 NAME="cygwin64-xproto"
 VERSION=7.7
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="X11 protocol headers for Cygwin 64bit toolchain"
 
@@ -15,7 +15,7 @@ SRC_URI="
 	http://xorg.freedesktop.org/archive/individual/proto/fixesproto-5.0.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/fontsproto-2.1.2.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/glproto-1.4.16.tar.bz2
-	http://xorg.freedesktop.org/archive/individual/proto/inputproto-2.2.tar.bz2
+	http://xorg.freedesktop.org/archive/individual/proto/inputproto-2.3.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/kbproto-1.0.6.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/printproto-1.0.4.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/randrproto-1.4.0.tar.bz2
@@ -32,7 +32,7 @@ SRC_URI="
 	http://xorg.freedesktop.org/archive/individual/lib/xtrans-1.2.7.tar.bz2
 "
 SRC_DIR=.
-PATCH_URI="01-mingw-w64.patch" #  02-cygwin64.patch"
+PATCH_URI="01-mingw-w64.patch  02-cygwin64.patch"
 
 src_compile() {
 	cd ${S}
