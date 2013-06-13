@@ -3,7 +3,7 @@ inherit xorg cross
 
 NAME="cygwin64-xproto"
 VERSION=7.7
-RELEASE=2
+RELEASE=3
 CATEGORY="Devel"
 SUMMARY="X11 protocol headers for Cygwin 64bit toolchain"
 
@@ -27,12 +27,13 @@ SRC_URI="
 	http://xorg.freedesktop.org/archive/individual/proto/xcmiscproto-1.2.2.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/xextproto-7.2.1.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/xineramaproto-1.2.1.tar.bz2
-	http://xorg.freedesktop.org/archive/individual/proto/xproto-7.0.23.tar.bz2
+	http://xorg.freedesktop.org/archive/individual/proto/xproto-7.0.24.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/proto/xproxymanagementprotocol-1.0.3.tar.bz2
 	http://xorg.freedesktop.org/archive/individual/lib/xtrans-1.2.7.tar.bz2
+	http://xorg.freedesktop.org/archive/individual/data/xbitmaps-1.1.1.tar.bz2
 "
 SRC_DIR=.
-PATCH_URI="01-mingw-w64.patch  02-cygwin64.patch"
+PATCH_URI="02-cygwin64.patch"
 
 src_compile() {
 	cd ${S}
