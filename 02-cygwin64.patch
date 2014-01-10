@@ -1,5 +1,5 @@
---- origsrc/xproto-7.0.24/Xwindows.h	2013-02-17 20:04:58.065172500 -0600
-+++ src/xproto-7.0.24/Xwindows.h	2013-02-17 20:10:37.667596600 -0600
+--- origsrc/xproto-7.0.25/Xwindows.h	2013-02-17 20:04:58.065172500 -0600
++++ src/xproto-7.0.25/Xwindows.h	2013-02-17 20:10:37.667596600 -0600
 @@ -63,6 +63,8 @@ The Open Group.
  #define _NO_BOOL_TYPEDEF
  #define BOOL WINBOOL
@@ -18,8 +18,8 @@
  #undef ATOM
  #undef FreeResource
  #undef CreateWindowA
---- origsrc/xproto-7.0.24/Xwinsock.h	2013-02-17 20:04:58.067172600 -0600
-+++ src/xproto-7.0.24/Xwinsock.h	2013-02-17 20:11:08.675370200 -0600
+--- origsrc/xproto-7.0.25/Xwinsock.h	2013-02-17 20:04:58.067172600 -0600
++++ src/xproto-7.0.25/Xwinsock.h	2013-02-17 20:11:08.675370200 -0600
 @@ -47,6 +47,8 @@ The Open Group.
  #define _NO_BOOL_TYPEDEF
  #define BOOL WINBOOL
